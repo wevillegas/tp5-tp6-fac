@@ -1,3 +1,5 @@
+// CORREGIR
+
 #include <stdio.h>
 
 // Dados tres cuadrados que se forman con los segmentos de las rectas que se indican :
