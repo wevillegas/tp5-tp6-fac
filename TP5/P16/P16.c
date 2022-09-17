@@ -13,10 +13,10 @@ int main()
         {
             if (n % i == 0)
             {
-                printf("%d \n", i);
+                printf("%d es divisor del numero ingresado\n", i);
             }
         }
-        printf("%d", n);
+        printf("%d es el numero ingresado, y tambien su propio divisor", n);
     } else {
         printf("El numero no es de 4 digitos \n");
     }
