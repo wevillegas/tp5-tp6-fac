@@ -1,5 +1,3 @@
-// CORREGIR
-
 #include <stdio.h>
 
 // Dados tres cuadrados que se forman con los segmentos de las rectas que se indican :
@@ -25,13 +23,13 @@ int main () {
         scanf("%d", &x);
         printf("Ingrese el punto en el plano (Y)\n");
         scanf("%d", &y);
-        if (-1 <= x <= 1 && -1 <= y <= 1 )
+        if (-1 <= x && x <= 1 && -1 <= y && y <= 1 )
         {
             punt = punt + 3;
-        }else if (-2 <= x < -1 && 1 < x <= 2 && -2 <= y < -1 && 1 < y <= 2)
+        }else if ((-2 <= x && x < -1 || 1 < x && x <= 2) || (-2 <= y && y < -1 || 1 < y && y <= 2))
         {
             punt = punt + 2;
-        } else if (-3 <= x < -2 && 2 < x <= 3 && -3 <= y < -2 && 2 < y <= 3)
+        } else if ((-3 <= x && x < -2 || 2 < x && x <= 3) || (-3 <= y && y < -2 || 2 < y && y <= 3))
         {
             punt = punt +1;
         } else {

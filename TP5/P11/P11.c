@@ -1,5 +1,3 @@
-// CORROBORAR SI ESTA BIEN
-
 #include <stdio.h>
 #include<math.h>
 
