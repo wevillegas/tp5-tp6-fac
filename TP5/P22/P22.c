@@ -47,7 +47,7 @@ int main()
                 }
             }
         }
-        printf("d: %d\nts: %d\nl: %d\nti: %d\n", d, ts, l, ti);
+        printf("Puntos que pertenecen a la diagonal: %d\nPuntos que pertenecen al triangulo superior: %d\nPuntos que pertenecen a los lados: %d\nPuntos que pertenecen al triangulo inferior: %d\n", d, ts, l, ti);
         c = c + 1;
     }
 }
